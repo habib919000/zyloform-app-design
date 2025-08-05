@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import exampleImage from 'figma:asset/4e5cee7de39ca9871c52640c0e1426bd599b80d8.png';
 
 interface ColorPickerProps {
   currentColor: string;

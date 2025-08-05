@@ -2,7 +2,9 @@
 module.exports = {
   content: [
     './index.html',
-    './**/*.{js,ts,jsx,tsx}',
+    './App.tsx',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './imports/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -25,6 +27,8 @@ module.exports = {
         'muted-foreground': 'var(--muted-foreground)',
         'accent-foreground': 'var(--accent-foreground)',
         'destructive-foreground': 'var(--destructive-foreground)',
+        ring: 'var(--ring)',
+        'outline-ring': 'var(--ring)',
       },
       borderRadius: {
         DEFAULT: 'var(--radius)',

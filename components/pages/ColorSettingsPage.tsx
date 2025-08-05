@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import svgPaths from "../../imports/svg-us6yw3ns9h";
-import imgColorWheel from "figma:asset/36c56bd854b8f69f211dd8ee49c36448cac6ce1a.png";
-import imgColorPicker from "figma:asset/ee9d56913d68b0e8b0bd715adaf1cd0cb46fb655.png";
+import imgColorWheel from "../../assets/color-wheel.png";
+import imgColorPicker from "../../assets/color-picker.png";
 import { FormTemplateSelector } from "../FormTemplateSelector";
 import { FormRenderer } from "../FormRenderer";
 import { formTemplates } from "../../data/FormTemplates";
