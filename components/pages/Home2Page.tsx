@@ -1,0 +1,1 @@
+/* This file has been removed - Home2Page is no longer used */
